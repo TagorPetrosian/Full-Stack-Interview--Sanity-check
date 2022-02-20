@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="layout">
+    <div class="center">
+
+      <h1 class="header">Full-Stack Interview;Sanity Check</h1>
+      <h3 class="description">Click on the button below to run the test</h3>
+      <button class="button" mat-raised-button color="primary" (click)="sendRequest()">Run</button>
+      <br>
+      <span class="loader" *ngIf="isLoading">Checking...</span>
+      <span [ngClass]="messageStyle"> {{message}} </span>
+
+    </div>
+  </div>
+</div>
