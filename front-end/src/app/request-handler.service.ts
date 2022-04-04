@@ -1,14 +1,13 @@
-import {Injectable} from '@angular/core';
-import {HttpClient} from "@angular/common/http";
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class RequestHandlerService {
-  constructor(private http: HttpClient) {
-  }
+  constructor(private http: HttpClient) {}
 
   sendRequest() {
-    return this.http.get('https://localhost:44379/api/FrontEnd')
+    return this.http.get('http://localhost:52850/api/FrontEnd');
   }
 }
