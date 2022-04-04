@@ -7,6 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class RequestHandlerService {
   constructor(private http: HttpClient) {}
 
+  // sdfsdf
   sendRequest() {
     return this.http.get('https://localhost:44379/api/FrontEnd');
   }
