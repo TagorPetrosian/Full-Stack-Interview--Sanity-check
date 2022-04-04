@@ -8,6 +8,6 @@ export class RequestHandlerService {
   constructor(private http: HttpClient) {}
 
   sendRequest() {
-    return this.http.get('http://localhost:52850/api/FrontEnd');
+    return this.http.get('https://localhost:44379/api/FrontEnd');
   }
 }
