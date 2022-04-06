@@ -5,8 +5,13 @@ namespace backend.Data
 {
     public interface ICommanderRepo
     {
-        IEnumerable<Command> GetAppCommands();
+        IEnumerable<Command> GetAllCommands();
 
         Command GetCommandById(int id);
+
+        void CreateCommand(Command command);
+        void UpdateCommand(Command command);
+
+        bool SaveChanges();
     }
 }

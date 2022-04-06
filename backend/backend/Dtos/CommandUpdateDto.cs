@@ -1,17 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace backend.Models
+namespace backend.Dtos
 {
-    public class Command
+    public class CommandUpdateDto
     {
-        [Key]
-        public int Id { get; set; }
+        [MaxLength(100)]    
         [Required]
         public string HowTo { get; set; }
         [Required]
         public string Line { get; set; }
         [Required]
         public string Platform { get; set; }
-
     }
 }

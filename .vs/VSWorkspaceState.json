@@ -1,13 +1,4 @@
 {
-  "ExpandedNodes": [
-    "",
-    "\\backend",
-    "\\backend\\backend",
-    "\\front-end",
-    "\\front-end\\src",
-    "\\front-end\\src\\app",
-    "\\front-end\\src\\app\\home"
-  ],
-  "SelectedNode": "\\front-end\\src\\app\\home\\home.component.ts",
+  "ExpandedNodes": [],
   "PreviewInSolutionExplorer": false
 }

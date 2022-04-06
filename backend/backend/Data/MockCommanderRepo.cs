@@ -3,9 +3,14 @@ using System.Collections.Generic;
 
 namespace backend.Data
 {
-    public class MockCommanderRepoc : ICommanderRepo
+    public class MockCommanderRepo : ICommanderRepo
     {
-        public IEnumerable<Command> GetAppCommands()
+        public void CreateCommand(Command command)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>() 
             {
@@ -20,6 +25,16 @@ namespace backend.Data
         public Command GetCommandById(int id)
         {
             return new Command() { Id = id , HowTo="Boil an Egg", Line="Boil Water", Platform="Pan"};
+        }
+
+        public bool SaveChanges()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void UpdateCommand(Command command)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }
