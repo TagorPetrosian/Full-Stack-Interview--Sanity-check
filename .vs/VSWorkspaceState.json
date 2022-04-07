@@ -3,11 +3,8 @@
     "",
     "\\backend",
     "\\backend\\backend",
-    "\\front-end",
-    "\\front-end\\src",
-    "\\front-end\\src\\app",
-    "\\front-end\\src\\app\\home"
+    "\\front-end"
   ],
-  "SelectedNode": "\\front-end\\src\\app\\home\\home.component.ts",
+  "SelectedNode": "\\backend\\backend.sln",
   "PreviewInSolutionExplorer": false
 }
